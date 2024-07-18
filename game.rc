@@ -1,0 +1,59 @@
+stallingleft BITMAP "images/stallingleft.bmp"
+stallingright BITMAP "images/stallingright.bmp"
+movingleft BITMAP "images/movingleft.bmp"
+movingright BITMAP "images/movingright.bmp"
+slidingleft BITMAP "images/slidingleft.bmp"
+slidingright BITMAP "images/slidingright.bmp"
+saw BITMAP "images/saw.bmp"
+redguardleft BITMAP "images/redguardleft.bmp"
+redguardright BITMAP "images/redguardright.bmp"
+spinner BITMAP "images/spinner.bmp"
+wasp BITMAP "images/wasp.bmp"
+waspwings BITMAP "images/waspwings.bmp"
+bullet BITMAP "images/bullet.bmp"
+cannon BITMAP "images/cannon.bmp"
+homingcannon BITMAP "images/hc.bmp"
+gravity1 BITMAP "images/gravity1.bmp"
+gravity2 BITMAP "images/gravity2.bmp"
+warder BITMAP "images/warder.bmp"
+sniper BITMAP "images/sniper.bmp"
+platform BITMAP "images/platform.bmp"
+jumppad BITMAP "images/jumppad.bmp"
+door BITMAP "images/door.bmp"
+finish BITMAP "images/finish.bmp"
+wall BITMAP "images/wall.bmp"
+editbutton BITMAP "images/editbutton.bmp"
+savebutton BITMAP "images/savebutton.bmp"
+addbutton BITMAP "images/addbutton.bmp"
+addwallsbutton BITMAP "images/addwallsbutton.bmp"
+importbutton BITMAP "images/importbutton.bmp"
+backbutton BITMAP "images/backbutton.bmp"
+trash BITMAP "images/trash.bmp"
+replaying BITMAP "images/replaying.bmp"
+addtraps BITMAP "images/addtraps.bmp"
+guide BITMAP "images/guide.bmp"
+
+jumpsound ARRAY "sounds/jump.wav"
+deathsound ARRAY "sounds/death.wav"
+shootsound ARRAY "sounds/shoot.wav"
+bulletsound ARRAY "sounds/bullet.wav"
+
+rt18x18 ARRAY "rt18x18"
+rt30x30 ARRAY "rt30x30"
+
+#include <windows.h>
+
+solved DIALOG 0, 0, 100, 25
+CAPTION "Level Verified!"
+STYLE WS_VISIBLE | WS_CAPTION | WS_POPUP | DS_CENTER
+{
+	PUSHBUTTON "Restart", 2, 5, 5, 30, 15, WS_VISIBLE | WS_CHILD
+	PUSHBUTTON "Export", 3, 65, 5, 30, 15, WS_VISIBLE | WS_CHILD
+}
+
+completed DIALOG 0, 0, 100, 25
+CAPTION "Level Completed!"
+STYLE WS_VISIBLE | WS_CAPTION | WS_POPUP | DS_CENTER
+{
+	PUSHBUTTON "Restart", 2, 35, 5, 30, 15, WS_VISIBLE | WS_CHILD
+}
