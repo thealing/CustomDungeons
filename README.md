@@ -8,4 +8,8 @@ This is a [King of Thieves](https://www.zeptolab.com/games/king_of_thieves) clon
 - Dungeons can also be imported from files
 - When a level is imported and not modified, press the S key to view the solution
 
+![Playing](https://github.com/user-attachments/assets/147cb0c5-7b14-4b12-bbdf-93862aa91dc3)
+![Editing Traps](https://github.com/user-attachments/assets/70b30e91-84ee-4905-a050-2e745f49e9f8)
+![Editing Layout](https://github.com/user-attachments/assets/d58af021-3c55-4a61-ba21-a2398d5738b3)
+
 Created in 2021
